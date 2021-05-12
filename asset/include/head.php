@@ -28,7 +28,7 @@ if ($pagelocation == "")
     <!-- Sidebar Holder -->
     <nav class="bg-primary" id="sidebar">
         <div class="sidebar-header text-center">
-            <h3><a href="././dashboard.php" class="menuhover">Menu</a></h3>
+            <h3><a href="<?= $pagelocation ?>dashboard.php" class="menuhover">Menu</a></h3>
         </div>
 
 

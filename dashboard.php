@@ -12,7 +12,7 @@ include("asset/include/head.php");
 <div class="d-flex flex-row justify-content-between" style="border: magenta 1px solid; height: 35em; ">
     <div class="p-2" style="border: red 1px solid">
         <a href="histo_acces.php">
-            <div class="card " style="width: 25em; height: 4S0em; margin-top: 2em;">
+            <div class="card " style="width: 25em; height: 40em; margin-top: 2em;">
                 <div class="card-body">
                     <p class="card-text">
                     <table  class="table text-primary" style="text-align: center">
@@ -71,9 +71,9 @@ include("asset/include/head.php");
             </div>
         </a>
 
-        <div class="test">
-            <a class="test" href="materiel/emprunts_en_cours.php" >
-                <div class="card test" style="width: 55em; margin-top: 2em; border: orange 1px solid">
+        <div>
+            <a  href="materiel/emprunts_en_cours.php" >
+                <div class="card " style="width: 55em; margin-top: 2em; border: orange 1px solid">
                     <div class="card-body">
                         <p class="card-text">
                         <table class="table table-striped text-primary" style="text-align: center">
@@ -106,18 +106,8 @@ include("asset/include/head.php");
                     </div>
                 </div>
             </a>
-
-
         </div>
-
-
     </div>
 </div>
-
-
-
-
-
-
 
 <?php include("asset/include/footer.php");?>
